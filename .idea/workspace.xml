@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b90f7c58-18d1-43f7-9e1f-e2297e219553" name="Default Changelist" comment="" />
+    <list default="true" id="b90f7c58-18d1-43f7-9e1f-e2297e219553" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/tv/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tv/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ViewModels/ActorViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ViewModels/ActorViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/actors/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/actors/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +36,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -126,6 +155,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jvJn0iylnmp6lbGlXlyy913ACq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -172,6 +204,8 @@
       <workItem from="1604866037585" duration="1694000" />
       <workItem from="1604867813717" duration="102000" />
       <workItem from="1604935261677" duration="11814000" />
+      <workItem from="1605041642683" duration="369000" />
+      <workItem from="1605207676105" duration="3052000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -179,11 +213,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1170" y="283" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604946759671">
+    <state x="1170" y="283" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605209435905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1170" y="283" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604946759671" />
+    <state x="1170" y="283" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605209435905" />
     <state x="1220" y="266" key="FileChooserDialogImpl" timestamp="1604842333341">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -204,13 +250,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="124" width="585" height="801" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1604944469713" />
-    <state x="1036" y="247" key="run.anything.popup" timestamp="1604946625699">
+    <state x="1036" y="247" key="run.anything.popup" timestamp="1605208923018">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1036" y="247" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1604946625699" />
-    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1604944432470">
+    <state x="1036" y="247" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605208923018" />
+    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1605210724129">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1604944432470" />
+    <state x="1103" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1605210724129" />
   </component>
 </project>
