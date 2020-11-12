@@ -41,7 +41,7 @@ class TvViewModel extends ViewModel
                 'genres' => $genresFormatted,
             ])->only([
                 'poster_path', 'id', 'name', 'overview', 'first_air_date', 'genres', 'vote_average'
-            ])->dump();
+            ]);
         });
     }
 

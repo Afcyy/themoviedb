@@ -34,20 +34,20 @@
             </ul>
             <div class="flex flex-col md:flex-row items-center">
                 @if(Request::is('/') or Request::is('movie/*'))
-                    <livewire:search-drowpdown>
+                    <livewire:search-drowpdown/>
+                        @elseif(Request::is('actors') or Request::is('actors/*'))
+                            <livewire:actors-search-dropdown/>
+                                @elseif(Request::is('tv') or Request::is('tv/*'))
+                                    <livewire:tv-show-search/>
+                                        @endif
                     <div class="md:ml-4 mt-3 md:mt-0">
                         <a href="#">
                             <img src="/img/avatar.jpg" alt="avatar" class="rounded-full w-8 h-8">
                         </a>
                     </div>
-                @elseif(Request::is('actors') or Request::is('actors/*'))
-                            <livewire:actors-search-dropdown>
-                                <div class="md:ml-4 mt-3 md:mt-0">
-                                    <a href="#">
-                                        <img src="/img/avatar.jpg" alt="avatar" class="rounded-full w-8 h-8">
-                                    </a>
-                                </div>
-                @endif
+
+
+
             </div>
 
         </div>
