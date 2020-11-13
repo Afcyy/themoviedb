@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crocodile | Movies</title>
-    @if(parse_url(url('/'), PHP_URL_SCHEME) == 'HTTPS')
+    @if(parse_url(url('/'), PHP_URL_SCHEME) == 'HTTPS' or parse_url(url('/*'), PHP_URL_SCHEME) == 'HTTPS')
         <link href="css/app.css" rel="stylesheet">
     @else
         <link href="css/app.css" rel="stylesheet">
