@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crocodile | Movies</title>
 
-        <link href="css/app.css" rel="stylesheet">
-
-
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
     <script src="https://unpkg.com/feather-icons"></script>
     @livewireStyles
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
@@ -21,7 +19,7 @@
             <li class="">
                 <a href="/" class="flex items-center">
                     <img src="/img/logo.png" alt="logo" class="w-10"/>
-                    <p class="pl-2 text-orange-500 font-bold">Crocodile Aligator</p>
+                    <p class="pl-2 text-orange-500 font-bold">Crocodile</p>
                 </a>
             </li>
             <li class="md:ml-12 mt-3 md:mt-0">
