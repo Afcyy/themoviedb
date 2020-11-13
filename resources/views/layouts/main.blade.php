@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crocodile | Movies</title>
+    @if(parse_url(url('/'), PHP_URL_SCHEME) == 'HTTPS')
+        <link href="css/app.css" rel="stylesheet">
+    @else
+        <link href="css/app.css" rel="stylesheet">
+    @endif
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://unpkg.com/feather-icons"></script>
     @livewireStyles
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
@@ -19,7 +23,7 @@
             <li class="">
                 <a href="/" class="flex items-center">
                     <img src="/img/logo.png" alt="logo" class="w-10"/>
-                    <p class="pl-2 text-orange-500 font-bold">Crocodile</p>
+                    <p class="pl-2 text-orange-500 font-bold">Crocodile Aligator</p>
                 </a>
             </li>
             <li class="md:ml-12 mt-3 md:mt-0">
