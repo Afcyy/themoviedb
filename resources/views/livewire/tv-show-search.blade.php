@@ -1,4 +1,3 @@
-
 <div class="relative mt-3 md:mt-0"
      x-data="{ isOpen: true }"
 
@@ -42,7 +41,8 @@
                                 @if($loop->last)@keydown.tab="isOpen = false"@endif
                             >
                                 @if($result['poster_path'])
-                                    <img src="{{ "https://image.tmdb.org/t/p/w92/" . $result['poster_path'] }}" alt="poster" class="w-12">
+                                    <img src="{{ "https://image.tmdb.org/t/p/w92/" . $result['poster_path'] }}"
+                                         alt="poster" class="w-12">
                                 @else
                                     <img src="https://via.placeholder.com/50x75" alt="default poster" class="w-12">
                                 @endif

@@ -21,8 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b90f7c58-18d1-43f7-9e1f-e2297e219553" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ViewModels/TvViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ViewModels/TvViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/ActorsSearchDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/ActorsSearchDropdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/TvShowSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/TvShowSearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/tv-show-search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/tv-show-search.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +207,8 @@
       <workItem from="1604935261677" duration="11814000" />
       <workItem from="1605041642683" duration="369000" />
       <workItem from="1605207676105" duration="4266000" />
+      <workItem from="1605216593372" duration="5000" />
+      <workItem from="1605283448761" duration="199000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
