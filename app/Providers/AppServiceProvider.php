@@ -23,11 +23,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if(env('REDIRECT_HTTPS'))
-        {
+        if(config('app.env') === 'production') {
             \URL::forceScheme('https');
         }
-
-        Schema::defaultStringLength(191);
     }
 }
